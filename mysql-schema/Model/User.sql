@@ -1,5 +1,5 @@
 --
--- Fpv Japan Petstore.
+-- Fpv Japan Event.
 -- Prepared SQL queries for 'User' definition.
 --
 

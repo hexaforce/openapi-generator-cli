@@ -1,0 +1,6 @@
+node_modules/
+package-lock.json
+
+.phplint.yml
+.travis.yml
+git_push.sh

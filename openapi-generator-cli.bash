@@ -15,11 +15,11 @@ docker run --rm --volume `pwd`:/docker-local openapitools/openapi-generator-cli 
  --generator-name mysql-schema \
  --output /docker-local/mysql-schema
 
+
+cd php-nextgen
+composer install
+vendor/bin/php-cs-fixer fix --allow-risky=yes . 
+
 find . -name .openapi-generator-ignore -type f | xargs rm
 
 find . -name .openapi-generator -type d | xargs rm -rf
-
-
-# cd php-nextgen
-# composer require --dev phpstan/phpstan
-# vendor/bin/phpstan analyze .

@@ -1,0 +1,21 @@
+{
+  "name": "openapi-generator-cli",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "formatter": "prettier --write \"./**/*.{js,jsx,ts,tsx}\" typescript-fetch"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "bracketSpacing": true,
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "printWidth": 1024
+  }
+}

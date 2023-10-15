@@ -1,4 +1,4 @@
-# OpenAPIClient-php
+# FpvJapan
 
 This is a sample server Petstore server. For this sample, you can use the api key `special-key` to test the authorization filters.
 
@@ -35,7 +35,7 @@ Download the files and include `autoload.php`:
 
 ```php
 <?php
-require_once('/path/to/OpenAPIClient-php/vendor/autoload.php');
+require_once('/path/to/FpvJapan/vendor/autoload.php');
 ```
 
 ## Getting Started
@@ -71,7 +71,7 @@ try {
 
 ## API Endpoints
 
-All URIs are relative to *http://petstore.swagger.io/v2*
+All URIs are relative to *http://event.fpv.jp*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------

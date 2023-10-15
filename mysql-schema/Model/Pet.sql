@@ -1,5 +1,5 @@
 --
--- OpenAPI Petstore.
+-- Fpv Japan Petstore.
 -- Prepared SQL queries for 'Pet' definition.
 --
 

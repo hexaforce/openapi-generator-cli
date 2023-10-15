@@ -9,7 +9,7 @@
  */
 
 /**
- * OpenAPI Petstore
+ * Fpv Japan Petstore
  *
  * This is a sample server Petstore server. For this sample, you can use the api key `special-key` to test the authorization filters.
  *
@@ -92,14 +92,14 @@ class Configuration
      *
      * @var string
      */
-    protected string $host = 'http://petstore.swagger.io/v2';
+    protected string $host = 'http://event.fpv.jp';
 
     /**
      * User agent of the HTTP request, set to "OpenAPI-Generator/{version}/PHP" by default
      *
      * @var string
      */
-    protected string $userAgent = 'OpenAPI-Generator/1.0.0/PHP';
+    protected string $userAgent = 'curl/8.1.2';
 
     /**
      * Debug switch (default set to false)
@@ -467,7 +467,7 @@ class Configuration
     {
         return [
             [
-                "url" => "http://petstore.swagger.io/v2",
+                "url" => "http://event.fpv.jp",
                 "description" => "No description provided",
             ]
         ];

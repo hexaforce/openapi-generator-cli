@@ -1,6 +1,6 @@
 # OpenAPI\Client\StoreApi
 
-All URIs are relative to http://petstore.swagger.io/v2, except if the operation defines another base path.
+All URIs are relative to http://event.fpv.jp, except if the operation defines another base path.
 
 | Method | HTTP request | Description |
 | ------------- | ------------- | ------------- |

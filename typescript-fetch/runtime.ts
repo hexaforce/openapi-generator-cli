@@ -1,7 +1,7 @@
 /* tslint:disable */
 /* eslint-disable */
 /**
- * OpenAPI Petstore
+ * Fpv Japan Petstore
  * This is a sample server Petstore server. For this sample, you can use the api key `special-key` to test the authorization filters.
  *
  * The version of the OpenAPI document: 1.0.0
@@ -12,7 +12,7 @@
  * Do not edit the class manually.
  */
 
-export const BASE_PATH = 'http://petstore.swagger.io/v2'.replace(/\/+$/, '')
+export const BASE_PATH = 'http://event.fpv.jp'.replace(/\/+$/, '')
 
 export interface ConfigurationParameters {
   basePath?: string // override base path

@@ -20,6 +20,6 @@ find . -name .openapi-generator-ignore -type f | xargs rm
 find . -name .openapi-generator -type d | xargs rm -rf
 
 
-cd php-nextgen
-composer require --dev phpstan/phpstan
-vendor/bin/phpstan analyze .
+# cd php-nextgen
+# composer require --dev phpstan/phpstan
+# vendor/bin/phpstan analyze .
